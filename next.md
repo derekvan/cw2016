@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Interests
-permalink: /misc/
+title: Next Steps
+permalink: /next/
 ---
 
 ## Cool hobby to prove you are athletic
