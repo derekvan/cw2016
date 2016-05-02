@@ -1,14 +1,14 @@
-- title: "Research"
-  href: "/research/"
+- title: "Why Markdown for Academics?"
+  href: "/why/"
 
-- title: "CV"
-  href: "/cv/"
+- title: "Workshop"
+  href: "/workshop/"
 
-- title: "Misc"
-  href: "/misc/"
+- title: "Resources"
+  href: "/resources/"
 
-- title: "Blog"
-  href: "/blog/"
+- title: "Next Steps"
+  href: "/next/"
 
   # subcategories:
   #  - subtitle: "Item 1"
