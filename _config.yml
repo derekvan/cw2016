@@ -1,12 +1,12 @@
-title: Geeky corner
-description: Much-Worse Jekyll theme for academic page and blog
-sourcecode: "https://github.com/gchauras/much-worse-jekyll-theme"
+title: Markdown Workshop :: Computers & Writing 2016
+description: Site collecting resources for the Markdown workshop at the Computer & Writing 2016 conference
+sourcecode: "https://github.com/derekvan/cw2016"
 
 permalink: blog/:year/:month/:day/:title
 exclude: ["Makefile", "README.md"]
 
-url: "http://gchauras.github.io"     # the base hostname & protocol for your site
-baseurl: "/much-worse-jekyll-theme"                   # the subpath of your site, e.g. /blog
+url: "http://processedword.net"     # the base hostname & protocol for your site
+baseurl: "/cw2016"                   # the subpath of your site, e.g. /blog
 
 author:
     name:
@@ -22,7 +22,7 @@ highlighter: pygments
 # Set 'provider' to false to turn analytics off globally.
 #
 analytics:
-    provider:
+    provider: false
     statcounter:
         sc_project  :
         sc_security :
@@ -43,7 +43,7 @@ analytics:
 # Set 'provider' to false to turn commenting off globally.
 #
 comments:
-    provider:
+    provider: false
     disqus:
       short_name:
     livefyre:
