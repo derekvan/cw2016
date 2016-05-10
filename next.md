@@ -50,3 +50,9 @@ There is a greater diversity of apps in the Apple ecosystem (OS X and iOS), but 
 [sublimetext]: https://www.sublimetext.com/
 [texts]: http://www.texts.io/features/
 [ulyssesapp]: http://www.ulyssesapp.com/
+
+## Advanced Conversion
+
+Markdown easily converts to HTML via many different apps and tools. However, you can also use more advanced tools to convert Markdown (or even other sorts of formats) using [Pandoc](http://pandoc.org/). Pandoc will convert Markdown to HTML and PDF as many of the other apps, but it will also produce Word docx or OpenOffice odt, Epub, various slideshow formats, and LaTeX.
+
+What makes Pandoc advanced is that it is a command line program. As with Jekyll, described above, Pandoc could be a great way to start learning to use the command line. Many tutorials online and the [Pandoc documentation itself ](http://pandoc.org/demos.html) explain exactly what to type into the command line in order to get the kind of file you want. Sociology professor Kieran Healy offers a [detailed and interesting explanation](https://kieranhealy.org/blog/archives/2014/01/23/plain-text/) for why he prefers writing in Markdown and using Pandoc to produce his files.
