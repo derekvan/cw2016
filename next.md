@@ -4,7 +4,17 @@ title: Next Steps
 permalink: /next/
 ---
 
-## Slideshows
+# After You've Mastered the Markdown Basics
+
+This page collects resources for taking the next step in using Markdown for writing tasks. After getting comfortable with writing documents using the syntax, there are many areas into which you can extend that knowledge:
+
+* [Creating slideshows out of Markdown documents][slide]
+* [Creating a blog or website out of a collection of Markdown documents][blog]
+* [Taking advantage of the unique features of different applications][apps]
+* [Converting Markdown documents into a range of other formats][convert]
+
+
+## Slideshows {#slide}
 
 There are several tools available for creating slideshows using Markdown syntax. The basic format is to use Markdown syntax as usual for the text (e.g., titles with `##` and bold and italics with asterisks, etc.) and use a special set of symbols to mark the separations between slides  (e.g., `* * *` or `---` ). There are online services for creating and hosting these presentations (such as [Swipe](https://www.swipe.to/markdown/)) or you can use a more DIY approach with [Reveal.js](http://lab.hakim.se/reveal-js/#/) or [Remark.js](http://remarkjs.com/#1). With Reveal.js, you can either convert your Markdown document to HTML (using [Pandoc](http://pandoc.org/README.html#producing-slide-shows-with-pandoc)) or [embed the Markdown into the HTML elements](https://github.com/hakimel/reveal.js#markdown) that make up the slideshow. With Remark.js, you can leave the Markdown document as is, but all the files must be uploaded to a web server (or run as a local web server) to function.
 
@@ -12,13 +22,13 @@ Overall, the benefits here are that you can use an existing outline written in M
 
 Tim Lockridge created [a slideshow using the Swipe service](https://www.swipe.to/6414fs) for a class lecture, and Tim and Derek Van Ittersum used the Remark.js system to make their [CCCC2016 slides](http://processedword.net/cccc16/#1).
 
-## Blogging
+## Blogging {#blog}
 
 As was discussed in the workshop, Markdown can be great for blogging, since it's easy to convert a blog post written in Markdown in a text editor to an HTML snippet that can be pasted into a Wordpress (or similar blogging service) text area. However, several other kinds of blog software allow users to turn a collection of Markdown documents into a blog without converting to HTML or using a web dashboard. These systems are typically called "static site generators" because they take input files (typically Markdown documents) and use them to generate a set of static HTML files that comprise the website. In other words, while Wordpress uses a database to create a blog site, and requires frequent updates and management via the web dashboard, static site generators just create plain old HTML files that can be uploaded to a web server the old-fashioned way.
 
 One of the most popular static site generators is [Jekyll](https://jekyllrb.com/). Jekyll, as with most of these types of software, requires using the command line and can appear a bit intimidating. However, there are many great tutorials ([This one by Tania Rascia](https://www.taniarascia.com/make-a-static-website-with-jekyll/) is great) that walk you through each line of text that needs to be typed into the command line. In fact, if you want to start learning to use the command line for other kinds of projects, setting up a Jekyll site would be a great place to start. Additionally, as with Wordpress, there are [many themes that users have shared](http://jekyllthemes.org/), so you don't have to style the site yourself if you're not comfortable with CSS or graphic design. Even better, you can create a Jekyll site and host it on GitHub for free. Jonathan McGlone has [a great tutorial for using GitHub for Jekyll sites](http://jmcglone.com/guides/github-pages/).
 
-## Markdown Applications
+## Markdown Applications {#apps}
 
 One of the benefits of creating Markdown documents is that they are [plain text files](http://www.macworld.com/article/1161549/forget_fancy_formatting_why_plain_text_is_best.html), meaning that you can open them in nearly any application rather than being limited to proprietary tools and formats. Because Markdown is a relatively simple syntax, application developers can easily support it in their apps. Great apps dedicated to supporting Markdown exist on all platforms (Mac, Windows, Linux) and even as web apps, meaning you can create and open you Markdown files in a variety of apps in order to take advantage of their unique features. It's not necessary to pick one and stick with it forever.
 
@@ -51,7 +61,7 @@ There is a greater diversity of apps in the Apple ecosystem (OS X and iOS), but 
 [texts]: http://www.texts.io/features/
 [ulyssesapp]: http://www.ulyssesapp.com/
 
-## Advanced Conversion
+## Advanced Conversion {#convert}
 
 Markdown easily converts to HTML via many different apps and tools. However, you can also use more advanced tools to convert Markdown (or even other sorts of formats) using [Pandoc](http://pandoc.org/). Pandoc will convert Markdown to HTML and PDF as many of the other apps, but it will also produce Word docx or OpenOffice odt, Epub, various slideshow formats, and LaTeX.
 
