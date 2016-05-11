@@ -8,10 +8,10 @@ permalink: /next/
 
 This page collects resources for taking the next step in using Markdown for writing tasks. After getting comfortable with writing documents using the syntax, there are many areas into which you can extend that knowledge:
 
-* [Creating slideshows out of Markdown documents][slide]
-* [Creating a blog or website out of a collection of Markdown documents][blog]
-* [Taking advantage of the unique features of different applications][apps]
-* [Converting Markdown documents into a range of other formats][convert]
+* [Creating slideshows out of Markdown documents](#slide)
+* [Creating a blog or website out of a collection of Markdown documents](#blog)
+* [Taking advantage of the unique features of different applications](#apps)
+* [Converting Markdown documents into a range of other formats](#mconvert)
 
 
 ## Slideshows {#slide}
