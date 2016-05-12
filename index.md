@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Why Markdown for Academics?
+title: Writing with Markdown
 permalink: /
 ---
 
@@ -17,4 +17,4 @@ There are two general reasons why learning Markdown could be compelling for Comp
 1. As the above quote from Christina Haas suggests, working with "another set of literacy tools" brings new aspects of writing to the foreground. In the case of Markdown, this includes structured documents, semantic markup, file format longevity, and interoperability among devices.
 2. Using Markdown opens the door to developing automated writing workflows that can make certain writing tasks more efficient, accurate, and easy. Writers can, for instance, develop templates for recommendation letters that speed this process up significantly.
 
-This workshop is not aimed at convincing participants to adopt Markdown for all or most of their writing tasks. Instead, the focus is on teaching participants to use the Markdown syntax and to experience how writing with related Markdown technologies brings new aspects of writing to the foreground. 
+This workshop is not aimed at convincing participants to adopt Markdown for all or most of their writing tasks. Instead, the focus is on teaching participants to use the Markdown syntax and to experience how writing with related Markdown technologies brings new aspects of writing to the foreground.
