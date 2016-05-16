@@ -3,7 +3,10 @@
 ---
 @charset "utf-8";
 
-$base-font-family: 'EB Garamond', serif;
+$base-font-family: 'Open Sans', sans-serif;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 600;
 $base-font-size:   x-large;
 $small-font-size:  0.875em;
 $vsmall-font-size: 0.66em;
@@ -18,6 +21,7 @@ $grey-vdark: #222;
 $blue:       #0091ed;
 $orange:     #ca6c18;
 $red:        #b6321c;
+$light-blue: #2B4D77;
 
 $background:        $grey-vlight;
 $dark-background:   darken($background, 5%);
@@ -25,8 +29,8 @@ $text-color:        $grey-vdark;
 $text-light-color:  $grey;
 $url-color:         $blue;
 $url-hover-color:   $orange;
-$header-text-color: $text-light-color;
-$header-hover-color:$text-color;
+$header-text-color: $text-color;
+$header-hover-color: $text-color;
 $header-hover-url:  $url-color;
 $line-color:        $grey-light;
 

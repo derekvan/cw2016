@@ -1,14 +1,20 @@
 .site-header {
     border-bottom: 1px solid $line-color;
     position: relative;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: $small-font-size;
     @extend %clearfix;
 }
 
 .site-header, .site-header a {
     color: $header-text-color;
+    font-weight: $font-weight-light;
 }
+
+svg {
+  fill: $light-blue;
+}
+
 .site-header a:hover {
     color: $header-hover-color;
     text-decoration: none;
@@ -104,7 +110,7 @@
     }
 
     .page-link {
-        color: $header-text-color;
+        color: $light-blue;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
