@@ -4,6 +4,7 @@ title: Workshop
 permalink: /workshop/
 ---
 
-Download [PDF version](http://nitens.org/img/cvtex/cv_template_xetex_caslon.pdf). The PDF should be embedded underneath -- uses Google Docs for embedding and works if the PDF is on dropbox. Works sporadically if PDF is elsewhere too.
+The workshop will involve converting the following document to Markdown:
 
-{% include embedpdf.html source="http://nitens.org/img/cvtex/cv_template_xetex_caslon.pdf" width=100 height=800 %}
+* [Word File](../images/WordDoc.docx)
+* [Google Docs link (of same file)](https://docs.google.com/document/d/17KpgRxB-xj6scIOOTMYVP-iOdF_3Z9gJu4MwXXVjtUo/edit?usp=sharing)
